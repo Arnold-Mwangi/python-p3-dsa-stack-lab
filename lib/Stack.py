@@ -13,14 +13,14 @@ class Stack:
 
     def pop(self):
         if not self.isEmpty():
-            # raise Exception("Stack is Empty!")
+            
             item = self.items[-1]
             self.items.pop()
             return item
 
     def peek(self):
         if not self.isEmpty():
-            # raise Exception("Stack is Empty!")
+            
             return self.items[-1]
     
     def size(self):
